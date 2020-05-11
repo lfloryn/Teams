@@ -5,6 +5,8 @@
 
 - Portal O365 : https://Portal.office.com
 
+- Microsoft Graph :  https://developer.microsoft.com/en-us/graph/graph-explorer/preview
+
 # Module 01
 
 - Microsoft Teams: Step-by-step intro for using, enabling and managing the experience https://www.youtube.com/watch?v=tAqAtI6K7NY
