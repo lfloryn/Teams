@@ -94,3 +94,74 @@ https://ss64.com/ps/syntax-datatypes.html
 #>
 
 
+get-team | Get-TeamUser 
+
+get-team -DisplayName Sales | Get-TeamUser 
+
+get-team 
+
+
+#install BetaTeams
+
+Get-PSRepository
+help Register-PSRepository  -ShowWindow
+
+Register-PackageSource -Name PoshTestGallery -Location https://www.poshtestgallery.com/api/v2/ -ProviderName PowerShellGet
+Install-Module -Name MicrosoftTeams -RequiredVersion 1.0.22 -Repository PoshTestGallery
+Get-Command -Module microsoftteams
+
+Get-Team | select *
+
+Get-Team | where displayname -like "sales"
+Get-Team | ? displayname -like "it*"
+Get-Team | ?  groupid -eq "53bacf9e-5974-4dde-b8f9-512f3b280c6e"
+
+
+get-team | Where {$_.displayname -like "sales" } 
+get-team | ? {$_.displayname -like "sales" -or $_.displayname -like "con*" } 
+
+$teams = get-team | ? {$_.displayname -like "sales"  }
+
+$teams.displayname
+
+$teams | select * 
+
+
+Get-Team | Get-TeamChannel 
+
+$teams | Get-TeamChannelUser
+
+help Get-TeamChannelUser -Examples 
+
+Get-Team | Get-TeamChannel  | ft -AutoSize -Wrap 
+
+Get-TeamChannelUser -GroupId 53bacf9e-5974-4dde-b8f9-512f3b280c6e -DisplayName "General"
+
+$TeamsId=  Get-Team | ? { $_.Description -like "Sales" } 
+
+Get-TeamChannelUser  -GroupId $TeamsId.GroupId -DisplayName "General"
+
+#V2
+
+$TeamsId=  Get-Team | ? { $_.Description -like "*o*" } 
+
+Get-TeamChannelUser  -GroupId $TeamsId.GroupId -DisplayName "General"
+
+#1
+$TeamsId | % {
+
+$_.displayname
+Get-TeamChannelUser  -GroupId $_.GroupId -DisplayName "General" | select *
+
+}
+
+#2
+$collection = Get-Team | ? { $_.Description -like "*o*" } 
+foreach ($item in $collection)
+{
+    $item.displayname
+Get-TeamChannelUser  -GroupId $item.GroupId -DisplayName "General" | select *
+}
+
+Get-Team 
+
