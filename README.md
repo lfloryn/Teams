@@ -50,6 +50,10 @@
 - Office 365 Audit Logging and Monitoring https://www.youtube.com/watch?v=k2Ie9F7bQ5s
 - Reports : https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide
 
+## Powershell Sample
+
+- [Powershell sample](M2.ps1)
+
 # Docs
 
 - Conditional Access : https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common
