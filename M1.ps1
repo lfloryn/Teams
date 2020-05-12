@@ -37,10 +37,14 @@ $Session = New-CsOnlineSession
 Import-PSSession $Session
 
 Get-Command -Module <Name> # Module name
-#For example: Get-Command -Module tmp_f1kjmla4.h1v
 
+#For example: Get-Command -Module tmp_f1kjmla4.h1v
+<#
 Get-Command -Module tmp_hzspxxo2.vd4
 Get-Command -Module tmp_hzspxxo2.vd4 | measure
+
+#>
+
 
 Get-Help Get-CsTeamsMessagingPolicy
 

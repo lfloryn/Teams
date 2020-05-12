@@ -6,6 +6,8 @@
 - Microsoft Graph :  https://developer.microsoft.com/en-us/graph/graph-explorer/preview
 - Donload Teams : https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app
 - Online Microsoft learn : https://docs.microsoft.com/en-us/learn/paths/m365-manage-team-collaboration/
+- [Git setup](Git.md)
+
 
 ## Exam related 
 
@@ -32,3 +34,4 @@
 - FastTrack : https://www.microsoft.com/microsoft-365/partners/fasttrack
 - Teams Service descriptions : https://docs.microsoft.com/en-us/office365/servicedescriptions/teams-service-description
 - Powershell : https://docs.microsoft.com/en-us/MicrosoftTeams/teams-powershell-overview
+- [Powershell sample](M1.ps1)
