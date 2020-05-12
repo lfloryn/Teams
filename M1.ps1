@@ -37,14 +37,10 @@ $Session = New-CsOnlineSession
 Import-PSSession $Session
 
 Get-Command -Module <Name> # Module name
-
 #For example: Get-Command -Module tmp_f1kjmla4.h1v
-<#
+
 Get-Command -Module tmp_hzspxxo2.vd4
 Get-Command -Module tmp_hzspxxo2.vd4 | measure
-
-#>
-
 
 Get-Help Get-CsTeamsMessagingPolicy
 
@@ -62,3 +58,39 @@ ise C:\Alin\Teams\jsonsample.txt
 
 $date = Get-Content C:\Alin\Teams\jsonsample.txt 
 $date | ConvertFrom-Json | ft 
+
+
+
+#Sample 2
+Connect-MicrosoftTeams
+
+get-team | Get-Member
+Get-Team | select *
+Get-Team | select DisplayName
+
+Get-Team
+
+Get-Service | Get-Member
+Get-Service | select * -First 1
+(Get-Service XboxNetApiSvc).Name
+(Get-Service XboxNetApiSvc).Start()
+
+
+help New-Team -Examples 
+
+
+$a = "1"
+$b = "1"
+
+[int]$a + [int]$b 
+
+$a | gm
+$b | gm
+
+<#
+DataTypes
+https://ss64.com/ps/syntax-datatypes.html
+
+#>
+
+
