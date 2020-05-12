@@ -197,9 +197,13 @@ Get-TeamsApp | ? displayname -like "b*"
 Get-TeamsApp | ? {$_.displayname -like "b*" -or $_.displayname -like "c*"  } | sort displayname
 
 
-$GrId = Get-Team | ? displayname -like "Sales" | select GroupId -ExpandProperty GroupId
-$GrId = (Get-Team | ? displayname -like "Sales").GroupId
+$GrId = Get-Team | ? displayname -like "IT-Demo" | select GroupId -ExpandProperty GroupId
+$GrId = (Get-Team | ? displayname -like "IT-Demo").GroupId
 
 Get-TeamChannel -GroupId $GrId
 
 
+Add-TeamChannelUser -GroupId $GrId -DisplayName "Canal - Skype" -User IsaiahL@M365x488933.OnMicrosoft.com -Role Owner
+Add-TeamChannelUser -GroupId $GrId -DisplayName "Canal - Skype" -User MeganB@M365x488933.OnMicrosoft.com -Role Owner
+
+help Add-TeamChannelUser -Examples
