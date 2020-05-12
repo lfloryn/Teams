@@ -187,3 +187,19 @@ Add-TeamChannelUser -GroupId $item.GroupId
 }
 
 
+#Filtrare demo 
+$variabila = Get-TeamsApp | Out-GridView -OutputMode Multiple 
+$variabila | gm
+
+
+Get-TeamsApp | ? displayname -like "b*"
+
+Get-TeamsApp | ? {$_.displayname -like "b*" -or $_.displayname -like "c*"  } | sort displayname
+
+
+$GrId = Get-Team | ? displayname -like "Sales" | select GroupId -ExpandProperty GroupId
+$GrId = (Get-Team | ? displayname -like "Sales").GroupId
+
+Get-TeamChannel -GroupId $GrId
+
+
