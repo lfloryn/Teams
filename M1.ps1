@@ -112,6 +112,8 @@ Get-Command -Module microsoftteams
 
 Get-Team | select *
 
+
+# Filtrare 
 Get-Team | where displayname -like "sales"
 Get-Team | ? displayname -like "it*"
 Get-Team | ?  groupid -eq "53bacf9e-5974-4dde-b8f9-512f3b280c6e"
@@ -122,22 +124,40 @@ get-team | ? {$_.displayname -like "sales" -or $_.displayname -like "con*" }
 
 $teams = get-team | ? {$_.displayname -like "sales"  }
 
+# _________________________________________________________
+
+
 $teams.displayname
 
 $teams | select * 
 
-
 Get-Team | Get-TeamChannel 
 
-$teams | Get-TeamChannelUser
+$teams | Get-TeamUser
+
+
+
+
 
 help Get-TeamChannelUser -Examples 
+
+$teamsGrID = Get-Team | ? displayname -like "contoso" 
+
+Get-TeamChannel -GroupId $teamsGrID.groupid
+
+Get-TeamChannelUser -GroupId $teamsGrID.groupid -DisplayName "General"
 
 Get-Team | Get-TeamChannel  | ft -AutoSize -Wrap 
 
 Get-TeamChannelUser -GroupId 53bacf9e-5974-4dde-b8f9-512f3b280c6e -DisplayName "General"
 
+
 $TeamsId=  Get-Team | ? { $_.Description -like "Sales" } 
+$TeamsId.groupid
+
+$TeamsId | select * | ft -AutoSize -Wrap
+
+$TeamsId.MailNickName
 
 Get-TeamChannelUser  -GroupId $TeamsId.GroupId -DisplayName "General"
 
@@ -161,7 +181,9 @@ foreach ($item in $collection)
 {
     $item.displayname
 Get-TeamChannelUser  -GroupId $item.GroupId -DisplayName "General" | select *
+
+Add-TeamChannelUser -GroupId $item.GroupId
+
 }
 
-Get-Team 
 
