@@ -30,23 +30,34 @@ Get-Command -Module NetworkTestingCompanion
 Invoke-ToolCreateShortcuts
 
 
-# Check O365 
+# Check O365 with json 
 
 $World = Invoke-RestMethod -Uri "https://endpoints.office.com/changes/worldwide/0000000000?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7"
 $World | sort endpointSetId | ft -AutoSize -Wrap
 
 
-$Query =  $World | ? endpointSetId -like "11"
+$Query =  $World | ? endpointSetId -like "54"
 
 $Query
 $Query.previous
 $Query.current 
 
 $Query | % {
-
-$_.add
-
+$_.remove
 }
+
+
+
+$worldwide = Invoke-RestMethod -Uri "https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7"
+
+$worldwide | ft -AutoSize -Wrap
+
+($worldwide  | where id -like "130").urls
+
+($worldwide  | where serviceArea -like "Exchange").urls
+
+$worldwide  | where serviceArea -like "Exchange"
+
 
 
 
