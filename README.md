@@ -96,4 +96,17 @@
 - hardware-requirements : https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app
 - Rooms : https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/with-office-365
 
+# Module04
 
+## Video
+
+- Getting Started with Teams and Channels https://www.youtube.com/watch?v=he2f1quaR7M
+- Overview of private channels in Microsoft Teams https://myignite.techcommunity.microsoft.com/sessions/83912?source=sessions
+- What are Access Reviews in Azure Active Directory? https://www.youtube.com/watch?v=kDRjQQ22Wkk&feature=youtu.be
+
+## Links
+
+- Licence B2B : https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance
+- Communicate-with-users-from-other-organizations : https://docs.microsoft.com/en-us/microsoftteams/communicate-with-users-from-other-organizations
+- Assign orphaned :  https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732?ui=en-us&rs=en-us&ad=us
+- 
