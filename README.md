@@ -70,3 +70,6 @@
 - Gdpr :  https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr?view=o365-worldwide
 - Alert Policies : https://docs.microsoft.com/en-us/microsoft-365/compliance/alert-policies?view=o365-worldwide
 
+# Module 3
+
+- Upgrade : https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-framework
