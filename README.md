@@ -72,5 +72,21 @@
 
 # Module 3
 
+## Video 
+
+- Introduction to Upgrade from Skype for Business to Microsoft Teams https://www.youtube.com/watch?v=0COYetLjWmE
+- Network Planning for Microsoft Teams https://www.youtube.com/watch?v=vi3M7ZzF2NU
+- Microsoft Teams Phones and Peripherals for enhanced meeting and calling experiences https://myignite.techcommunity.microsoft.com/sessions/83485?source=sessions
+- Transform every meeting with Microsoft Teams Rooms: https://www.youtube.com/watch?v=5VBRa4s1hVM
+
+## Powershell
+
+- [Powershell sample](M3.ps1)
+
 - Upgrade : https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-framework
 - Network Planner : https://docs.microsoft.com/en-us/microsoftteams/prepare-network
+- Network Testing Companion : https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4
+- Info endpoints : 
+    - https://endpoints.office.com/version?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7
+    - https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7
+    - https://endpoints.office.com/changes/worldwide/0000000000?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7
