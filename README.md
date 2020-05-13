@@ -81,7 +81,7 @@
 
 ## Powershell
 
-- [Powershell sample](M3.ps1)
+- [Powershell sample M3](M3.ps1)
 
 - Upgrade : https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-framework
 - Network Planner : https://docs.microsoft.com/en-us/microsoftteams/prepare-network
