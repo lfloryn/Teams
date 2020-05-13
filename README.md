@@ -90,3 +90,8 @@
     - https://endpoints.office.com/version?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7
     - https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7
     - https://endpoints.office.com/changes/worldwide/0000000000?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7
+    - https://docs.microsoft.com/en-us/office365/enterprise/managing-office-365-endpoints
+- Ip url : https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
+- Clients : https://docs.microsoft.com/en-us/microsoftteams/get-clients
+- hardware-requirements : https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app
+- Rooms : https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/with-office-365

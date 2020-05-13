@@ -49,10 +49,21 @@ $_.remove
 
 
 $worldwide = Invoke-RestMethod -Uri "https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7"
+
 $worldwide | ft -AutoSize -Wrap
+
 ($worldwide  | where id -like "130").urls
+
 ($worldwide  | where serviceArea -like "Exchange").urls
+
 $worldwide  | where serviceArea -like "Exchange"
+
+# PS RoomMailbox
+#https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/with-office-365
+
+New-Mailbox -Name "Room1" -Alias Room1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID admin@M365x048734.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+
+
 
 
 
