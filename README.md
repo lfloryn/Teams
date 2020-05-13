@@ -73,3 +73,4 @@
 # Module 3
 
 - Upgrade : https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-framework
+- Network Planner : https://docs.microsoft.com/en-us/microsoftteams/prepare-network
