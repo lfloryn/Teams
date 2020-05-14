@@ -149,6 +149,25 @@
 - https://docs.microsoft.com/en-us/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans
 - https://docs.microsoft.com/en-us/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 - https://docs.microsoft.com/en-us/microsoftteams/toll-free-dialing-limitations-and-restrictions
+- https://docs.microsoft.com/en-us/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing
+- https://docs.microsoft.com/en-us/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
+- https://support.microsoft.com/en-us/office/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e?ui=en-us&rs=en-us&ad=us
+- https://docs.microsoft.com/en-us/microsoftteams/manage-resource-accounts
+- https://docs.microsoft.com/en-us/microsoftteams/create-a-phone-system-call-queue
+- https://docs.microsoft.com/en-us/microsoftteams/call-park-and-retrieve
+- https://docs.microsoft.com/en-us/microsoftteams/teams-calling-policy
+- https://docs.microsoft.com/en-us/microsoftteams/direct-routing-monitor-and-troubleshoot
+
+## Troubleshooting connectivity issues : 
+
+-https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2
+- https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes
+- https://docs.microsoft.com/en-us/microsoftteams/native-chat-for-external-users
+- https://docs.microsoft.com/en-us/microsoftteams/set-up-call-analytics
+- https://docs.microsoft.com/en-us/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+- https://docs.microsoft.com/en-us/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+- https://docs.microsoft.com/en-us/microsoftteams/turning-on-and-using-call-quality-dashboard
+
 
 
 
