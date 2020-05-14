@@ -9,6 +9,8 @@
 - Learn Powershell : https://docs.microsoft.com/en-us/powershell/scripting/learn/more-powershell-learning?view=powershell-7
 - [Git setup](Git.md)
 
+- Auto complete code in Visual studio Code :  **Ctrl + Shift + P** 
+
 
 ## Exam related 
 
