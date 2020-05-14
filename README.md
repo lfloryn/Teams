@@ -2,6 +2,7 @@
 # Info  
 
 - Git link : https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams
+- Microsoft Teams : https://docs.microsoft.com/en-us/microsoftteams
 - Portal O365 : https://Portal.office.com
 - Microsoft Graph :  https://developer.microsoft.com/en-us/graph/graph-explorer/preview
 - Download Teams : https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app
