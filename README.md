@@ -148,6 +148,9 @@
 - https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page
 - https://docs.microsoft.com/en-us/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans
 - https://docs.microsoft.com/en-us/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
+- https://docs.microsoft.com/en-us/microsoftteams/toll-free-dialing-limitations-and-restrictions
+
+
 
 
 
