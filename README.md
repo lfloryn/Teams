@@ -145,6 +145,10 @@
 - https://support.office.com/en-us/article/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889
 - https://support.office.com/en-us/article/manage-a-group-in-yammer-6e05c6d6-5548-4c88-89cd-e6757a514ef2
 - https://resources.techcommunity.microsoft.com/wp-content/uploads/2019/05/How-to-host-a-Live-Event-in-Yammer-Playbook.pdf
+- https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page
+- https://docs.microsoft.com/en-us/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans
+- https://docs.microsoft.com/en-us/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
+
 
 
 
