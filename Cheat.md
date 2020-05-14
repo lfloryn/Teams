@@ -1,6 +1,3 @@
-[![Home](../images/home.jpg)](../README.md)
-
-
 # Cheat
 
 # Teams Help
@@ -45,12 +42,10 @@ https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure
 https://docs.microsoft.com/en-us/stream/network-overview
 https://docs.microsoft.com/en-us/stream/ecdn
 
-# Setup Or Team
-
+# Setup Org-Wide Team
 https://docs.microsoft.com/en-us/microsoftteams/create-an-org-wide-team
 
 # Message Policy 
-
 https://docs.microsoft.com/en-us/microsoftteams/messaging-policies-in-teams
 
 # Manage Custom App1
@@ -58,8 +53,6 @@ https://docs.microsoft.com/en-us/microsoftteams/teams-custom-app-policies-and-se
 
 # Modern Sharepoint
 https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-is-modern-sharepoint-and-why-should-i-care/ba-p/161941
-
-
 
 # Prepare exam 
 https://vladtalkstech.com/ms-700-study-guide-managing-microsoft-teams
