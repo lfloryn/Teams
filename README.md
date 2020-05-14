@@ -111,3 +111,44 @@
 - Communicate-with-users-from-other-organizations : https://docs.microsoft.com/en-us/microsoftteams/communicate-with-users-from-other-organizations
 - Assign orphaned :  https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732?ui=en-us&rs=en-us&ad=us
 
+# Module05
+
+## Video
+
+- Managing Apps in Microsoft Teams https://www.youtube.com/watch?v=PPf5UHOr394
+- Application Policies in Microsoft Teams https://www.youtube.com/watch?v=PiqDq9mHNm4&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=17
+
+## Links
+
+- Turn sharing off : https://docs.microsoft.com/en-us/sharepoint/turn-external-sharing-on-or-off
+- Powershell Teams : https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-overview
+- Teams Apps : https://docs.microsoft.com/en-us/learn/modules/intro-microsoft-teams-apps/
+- App permissions : https://docs.microsoft.com/en-us/microsoftteams/app-permissions
+- Manage apps:  https://docs.microsoft.com/en-us/MicrosoftTeams/manage-apps
+- App template : https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates
+
+# Module 06
+
+## Video
+
+- Introduction to Meetings in Microsoft Teams for IT Pros:  https://www.youtube.com/watch?v=redE59lo2_Y&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=4
+- Live Events in Microsoft Teams:  https://www.youtube.com/watch?v=0pnfFsUtaDQ&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=16&t=0s
+- Direct Routing in Microsoft Teams : https://www.youtube.com/watch?v=1ASftX_Msb8
+- Troubleshooting Microsoft Teams:  https://myignite.techcommunity.microsoft.com/sessions/83474?source=sessions
+
+## Links
+
+- https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/plan-for-teams-live-events
+- https://docs.microsoft.com/stream/network-caching
+- https://docs.microsoft.com/en-us/yammer/configure-your-yammer-network/enforce-office-365-identity
+- https://docs.microsoft.com/en-us/yammer/manage-yammer-groups/yammer-and-office-365-groups
+- https://support.office.com/en-us/article/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889
+- https://support.office.com/en-us/article/manage-a-group-in-yammer-6e05c6d6-5548-4c88-89cd-e6757a514ef2
+- https://resources.techcommunity.microsoft.com/wp-content/uploads/2019/05/How-to-host-a-Live-Event-in-Yammer-Playbook.pdf
+
+
+
+
+
+
+
