@@ -43,3 +43,7 @@ New-Team -GroupID $group.ExternalDirectoryObjectId -Visibility Private -Owner ad
 
 Get-EXORecipient
 
+
+
+
+New-Team -Displayname “CA-Office” -MailNickName “CA-Office” -Visibility Public
