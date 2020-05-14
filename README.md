@@ -160,7 +160,7 @@
 
 ## Troubleshooting connectivity issues : 
 
--https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2
+- https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2
 - https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes
 - https://docs.microsoft.com/en-us/microsoftteams/native-chat-for-external-users
 - https://docs.microsoft.com/en-us/microsoftteams/set-up-call-analytics
