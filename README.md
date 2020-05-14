@@ -6,6 +6,7 @@
 - Microsoft Graph :  https://developer.microsoft.com/en-us/graph/graph-explorer/preview
 - Download Teams : https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app
 - Online Microsoft learn : https://docs.microsoft.com/en-us/learn/paths/m365-manage-team-collaboration/
+- Learn Powershell : https://docs.microsoft.com/en-us/powershell/scripting/learn/more-powershell-learning?view=powershell-7
 - [Git setup](Git.md)
 
 
@@ -109,4 +110,4 @@
 - Licence B2B : https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance
 - Communicate-with-users-from-other-organizations : https://docs.microsoft.com/en-us/microsoftteams/communicate-with-users-from-other-organizations
 - Assign orphaned :  https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732?ui=en-us&rs=en-us&ad=us
-- 
+
